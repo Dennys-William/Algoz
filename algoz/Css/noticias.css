@@ -1,332 +1,336 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: white; /* Fundo verde neon */
-    color: black;
-    line-height: 1.6;
-  }
+  font-family: Arial, sans-serif;
+  background-color: white; /* Fundo verde neon */
+  color: black;
+  line-height: 1.6;
+}
 
 
- /* Nav */
+/* Nav */
 
- 
+
 .navbar {
-    display: flex;
-    
-    align-items: center;
-    
-    background-color: #fff;
+  display: flex;
   
-    position: relative;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    /*height: 10%;*/
-    height: 70px;
-    background: black;
-    color: white;
+  align-items: center;
+  
+  background-color: #fff;
 
-  }
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  /*height: 10%;*/
+  height: 70px;
+  background: black;
+  color: white;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: none;
+}
+
+.logo-m {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 0%;
+  position: absolute;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  height: 100%;
+  justify-content: flex-end;
+  max-width: 1200px;      
+  margin: 2rem auto;
+  position: relative;
   
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: none;
-  }
-  
-  .logo-m {
-    font-size: 2rem;
-    font-weight: bold;
-    display: block;
-  
-    
-  }
-  
-  .menu {
-    display: flex;
-    gap: 20px;
-    width: 90%;
-    height: 100%;
-    justify-content: flex-end;
-    max-width: 1200px;      
-    margin: 2rem auto;
-    
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1rem;
-    transition: color 0.3s;
-    margin-top: 3vh;
-    color: white;
-    opacity: 0.8;
-  }
-  
-  .menu a:hover {
-    opacity: 1;
-    border-bottom: 2px solid white;
-  }
-  
-  
-  
-  .login {
-    text-align: center;
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  .menu-toggle {
-    display: none;
-  }
-  .menu-close {
-    display: none;
-  }
-  
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s;
+  margin-top: 3vh;
+  color: white;
+  opacity: 0.8;
+}
+
+.menu a:hover {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+
+
+
+.login {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.menu-toggle {
+  display: none;
+}
+.menu-close {
+  display: none;
+}
+
+
+
+/* Nav Fim */
+
+ /*CAIXA FIM */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+
+  margin-top: 8%;
  
+}
 
- /* Nav Fim */
+.categoria {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
 
-   /*CAIXA FIM */
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  
-    margin-top: 8%;
-   
-  }
-  
-  .categoria {
-    text-transform: uppercase;
-    font-size: 14px;
-    margin: 0;
-    font-weight: bold;
-  }
-  
-  h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin: 10px 0;
-  }
-  
-  .descricao {
-    font-size: 18px;
-    margin: 20px 0;
-  }
-  
-  .autor {
-    font-size: 14px;
-    color: #333;
-    margin-top: 20px;
-  }
-  
-  .redes {
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-    border-radius: 50px;
-  }
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
 
-  .data {
-    font-size: 12px;
-    color: #666;
-    margin-top: 10px;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .social-icons a {
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 10px;
-    color: black;
-  }
-  
-  .comentarios {
-    font-size: 14px;
-    color: black;
-  }
+.descricao {
+  font-size: 18px;
+  margin: 20px 0;
+}
 
-  .main-image {
-    width: 100%;
-    object-fit: cover;
-  }
+.autor {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+}
 
-  /*CAIXA FIM */
+.redes {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.data {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+  color: black;
+}
+
+.comentarios {
+  font-size: 14px;
+  color: black;
+}
+
+.main-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*CAIXA FIM */
 
 
 
-  /* Texto */
+/* Texto */
 
-  .texto {
-    max-width: 600px;
-    
-    margin: 0 auto;
+.texto {
+  max-width: 600px;
+  
+  margin: 0 auto;
 
-  }
-  .texto p {
-    padding: 20px;
-    text-align: left;
-  }
+}
+.texto p {
+  padding: 20px;
+  text-align: left;
+  font-size: 3.3vh;
+}
 
-  /*Texto Fim */
-  .button-container {
-    text-align: center;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    background-color: black; /* Cor azul */
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-  }
-  
-  /* Efeito de hover */
-  .btn:hover {
-    background-color: black; /* Azul escuro no hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-  }
-  
-  /* Efeito ao clicar */
-  .btn:active {
-    background-color: white; /* Azul mais escuro no clique */
-    transform: scale(0.95);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
-  }
-  
-    /* Texto Fim*/
+/*Texto Fim */
+.button-container {
+  text-align: center;
+}
 
- /* Estilo para telas menores */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: black; /* Cor azul */
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+/* Efeito de hover */
+.btn:hover {
+  background-color: black; /* Azul escuro no hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Efeito ao clicar */
+.btn:active {
+  background-color: white; /* Azul mais escuro no clique */
+  transform: scale(0.95);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+  /* Texto Fim*/
+
+/* Estilo para telas menores */
 @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 10px 20px;
-      width: 95%;
-    
-  }
-  .logo {
-    font-size: 2rem;
-    font-weight: bold;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    width: 95%;
+  
+}
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.logo-m {
+  display: none;
+}
+
+.menu-toggle {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.5rem;
     position: absolute;
+    right: 10%;
+    font-size: 5vh;
     top: 50%;
     transform: translateY(-50%);
-    display: block;
-  }
+    border-bottom: 2px solid white;
+}
+.menu-toggle p {
+  font-size: 2.3vh;
+}
 
-  .logo-m {
-    display: none;
-  }
+.menu {
+    /* display: none;*/
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    gap: 10px;
+  /*width: 250px; Largura do menu lateral */
+    width: 0%; /* Largura do menu lateral */
+    height: 150vh;
+    background: black;
+    padding: 10px 0;
+    position: fixed;
+    margin-top: 10vh;
+    top: 100;
+    right: 0; /* Aparece do lado direito */
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
+    justify-content:flex-start;
+    transition: 0.7s;
+}
 
-  .menu-toggle {
-      display: flex;
-      cursor: pointer;
-      font-size: 1.5rem;
-      position: absolute;
-      right: 10%;
-      font-size: 5vh;
-      top: 50%;
-      transform: translateY(-50%);
-      border-bottom: 2px solid white;
-  }
-  .menu-toggle p {
-    font-size: 2.3vh;
-  }
+.menu a {
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-left: 2vh;
+    padding-bottom: 4vh;
+    
+}
 
-  .menu {
-      /* display: none;*/
-      display: flex;
-      visibility: hidden;
-      flex-direction: column;
-      gap: 10px;
-    /*width: 250px; Largura do menu lateral */
-      width: 0%; /* Largura do menu lateral */
-      height: 150vh;
-      background: black;
-      padding: 10px 0;
-      position: fixed;
-      margin-top: 10vh;
-      top: 100;
-      right: 0; /* Aparece do lado direito */
-      box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
-      justify-content:flex-start;
-      transition: 0.7s;
-  }
-
-  .menu a {
-      color: white;
-      font-size: 1.5rem;
-      border-bottom: 1px solid #ddd;
-      padding-left: 2vh;
-      padding-bottom: 4vh;
-      
-  }
-
-  .menu.active {
-    /*  display: flex; */
-      visibility: visible;
-      width: 100%;
-  }
-
-  /* Botão de fechar */
-  .menu-close {
-      position: absolute;
-      top: 10px;
-      /*outline: 1px solid white; */
-      right: 10px;
-      font-size: 1.5rem;
-      color: #333;
-      cursor: pointer;
-      padding: 1vh;
-      display: block;
-      font-size: 5vh;
-      
-  } 
-
-  .btn {
-    padding: 12px 25px;
-    font-size: 16px;
-  }
-
-  /*Texto */
-  .texto {
+.menu.active {
+  /*  display: flex; */
+    visibility: visible;
     width: 100%;
-  
+}
 
+/* Botão de fechar */
+.menu-close {
+    position: absolute;
+    top: 10px;
+    /*outline: 1px solid white; */
+    right: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    padding: 1vh;
+    display: block;
+    font-size: 5vh;
+    
+} 
+
+.btn {
+  padding: 12px 25px;
+  font-size: 16px;
+}
+
+/*Texto */
+.texto {
+  width: 100%;
+
+
+}
+.texto p {
+  padding: 20px;
+  text-align: left;
+  font-size: 3vh;
+}
+/* Texto Fim */
+
+
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
   }
-  .texto p {
-    padding: 20px;
-    text-align: left;
-  }
-  /* Texto Fim */
-
-
-  }
-
-  @media (max-width: 480px) {
-    .btn {
-      padding: 10px 20px;
-      font-size: 14px;
-    }
-  }
-
+}
 
